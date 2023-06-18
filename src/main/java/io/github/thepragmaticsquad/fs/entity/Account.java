@@ -46,7 +46,7 @@ public class Account {
     private LocalDateTime createdAt;
 
     @Column(name = "last_transaction")
-    private Date lastTransaction;
+    private LocalDateTime lastTransaction;
 
     @Enumerated(EnumType.STRING)
     @Column(name = "account_type")
